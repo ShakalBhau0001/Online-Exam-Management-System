@@ -11,11 +11,11 @@ OnlineExamSystem/
 ├── core/
 │   ├── __init__.py
 │   ├── db.py              ← All database operations
-│   └── questions.py       ← Question bank (Java, Python, DBMS)
+│   └── questions.py       ← Question bank 
 │
 ├── gui/
 │   ├── __init__.py
-│   ├── login.py           ← Unified Login (Student + Admin)
+│   ├── login.py           ← Unified Login
 │   │
 │   ├── student/
 │   │   ├── __init__.py
@@ -26,7 +26,7 @@ OnlineExamSystem/
 │   │
 │   └── admin/
 │       ├── __init__.py
-│       └── dashboard.py   ← Admin Panel (Stats + Students + Results)
+│       └── dashboard.py   ← Admin Panel 
 │
 ├── main.py                ← Entry Point
 ├── setup_db.py            ← One-time DB setup
