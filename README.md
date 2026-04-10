@@ -111,8 +111,8 @@ Online-Exam-Management-System/
 
 ### 1️⃣ Prerequisites
 - Python 3.10+
-- Tkinter (GUI support)
-- SQLite / local DB support
+- CustomTkinter (GUI support)
+- MySQL Database
 - pip package manager
 
 ### 2️⃣ Clone Repository
