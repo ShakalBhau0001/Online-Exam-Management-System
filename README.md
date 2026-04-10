@@ -212,19 +212,28 @@ python main.py
 ## 🖼️ Screenshots
 
 ### 1. Login Screen
-![Login](assets/login.png)
+![Login](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Login.png)
 
-### 2. Student Dashboard
-![Student Dashboard](assets/student_dashboard.png)
+### 2. Admin Dashboard
+![Admin Dashboard](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Admin%20Dashboard.png)
 
-### 3. MCQ Exam Window
-![Exam Window](assets/exam.png)
+### 3. Exam Results
+![Exam Results](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Admin%20Stud%20Results.png)
 
-### 4. Exam History
-![History](assets/history.png)
+### 4. Student Records
+![History](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Admin%20Stud%20records.png)
 
-### 5. Admin Dashboard
-![Admin Dashboard](assets/admin_dashboard.png)
+### 5. Exam Tab
+![Exam Tab](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Exam%20Tab.png)
+
+### 6. Result Tab
+![Result Tab](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Result%20Tab.png)
+
+### 7. Review Answer
+![Review Answer](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Review%20Answer.png)
+
+### 8. Student Dashboard
+![Student Dashboard](https://github.com/ShakalBhau0001/Online-Exam-Management-System/blob/main/assets/Student%20Dashboard.png)
 
 ---
 
