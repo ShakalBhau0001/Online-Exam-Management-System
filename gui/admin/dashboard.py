@@ -1,6 +1,5 @@
 import customtkinter as ctk
 from tkinter import messagebox as mb
-from gui.login import LoginWindow
 from core.db import (
     get_dashboard_stats,
     get_all_students,
@@ -280,4 +279,6 @@ class AdminDashboard(ctk.CTk):
     # ── Logout
     def logout(self):
         self.destroy()
+        from gui.login import LoginWindow
+
         LoginWindow().mainloop()
