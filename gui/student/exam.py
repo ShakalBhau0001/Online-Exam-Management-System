@@ -1,6 +1,5 @@
 import customtkinter as ctk
 from tkinter import messagebox
-from gui.student.dashboard import StudentDashboard
 from core.db import save_result
 from core.questions import (
     get_shuffled_questions,
@@ -115,6 +114,8 @@ class ReviewWindow(ctk.CTkToplevel):
     def go_home(self):
         username = self.master.username
         self.master.destroy()
+        from gui.student.dashboard import StudentDashboard
+
         StudentDashboard(username).mainloop()
 
     def close_all(self):
