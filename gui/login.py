@@ -1,8 +1,5 @@
 import customtkinter as ctk
 from tkinter import messagebox
-from gui.student.signup import SignupWindow
-from gui.student.dashboard import StudentDashboard
-from gui.admin.dashboard import AdminDashboard
 from core.db import validate_login, validate_admin
 
 
@@ -115,16 +112,22 @@ class LoginWindow(ctk.CTk):
         if role == "student":
             if validate_login(username, password):
                 self.destroy()
+                from gui.student.dashboard import StudentDashboard
+
                 StudentDashboard(username=username).mainloop()
             else:
                 messagebox.showerror("Login Error", "Invalid username or password!")
         else:
             if validate_admin(username, password):
                 self.destroy()
+                from gui.admin.dashboard import AdminDashboard
+
                 AdminDashboard().mainloop()
             else:
                 messagebox.showerror("Login Error", "Invalid admin credentials!")
 
     def open_signup(self):
         self.destroy()
+        from gui.student.signup import SignupWindow
+
         SignupWindow().mainloop()
