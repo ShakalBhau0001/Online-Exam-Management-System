@@ -1,6 +1,5 @@
 import customtkinter as ctk
 from tkinter import messagebox
-from gui.login import LoginWindow
 from core.db import username_exists, email_exists, insert_student
 
 
@@ -102,4 +101,5 @@ class SignupWindow(ctk.CTk):
 
     def go_back(self):
         self.destroy()
+        from gui.login import LoginWindow
         LoginWindow().mainloop()
